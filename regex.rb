@@ -5,9 +5,13 @@ def has_a_b? (string)
 
 	else
 
-	puts "No match here."
-	
-  end
+	     puts "No match here."
+
+    end
   
 end
+
+has_a_b?("basketball")
+has_a_b?("football")
+has_a_b?("hockey")
 
