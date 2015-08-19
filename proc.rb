@@ -3,3 +3,5 @@ def take_proc(proc)
 		proc.call number
 	end
 end
+
+proc = Proc.new do |number|
