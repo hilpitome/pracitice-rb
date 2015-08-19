@@ -5,3 +5,9 @@ def has_a_b? (string)
 
 	else
 
+	puts "No match here."
+	
+  end
+  
+end
+
