@@ -5,3 +5,7 @@ def take_proc(proc)
 end
 
 proc = Proc.new do |number|
+
+	puts "i the number #{number} inside proc!"
+end
+take_proc(proc)
