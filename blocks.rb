@@ -4,9 +4,10 @@ end
 
 [14,79,2].each do |number|
 
-take_block do 
+take_block number do 
 
-	puts "block is now taken into the method"
+	puts "Block being called in the method! #{number}"
 
 end
 
+end
